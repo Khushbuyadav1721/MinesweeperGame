@@ -4,7 +4,7 @@ import autoprefixer from "autoprefixer";
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: "/react-minesweeper/",
+  base: "./", // ✅ Important for Vercel deployment
   plugins: [react()],
   css: {
     postcss: {
